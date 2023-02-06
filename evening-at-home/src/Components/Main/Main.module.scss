@@ -129,77 +129,137 @@
             justify-content: center;
             cursor: pointer;
 
-            @media (min-width: 834px) {
-                margin-top: 30px;
-            }
+@media (min-width: 1200px) {
+        position: absolute;
+        top: 140px;
+        left: -40px;
+    }
 
+    @media (min-width: 1235px) {
+        position: absolute;
+        top: 140px;
+        left: -65px;
+    }
 
+    @media (min-width: 1290px) {
+        position: absolute;
+        top: 140px;
+        left: -85px;
+    }
 
-            @media (min-width: 1200px) {
-                position: absolute;
-                top: 140px;
-                left: -40px;
-            }
+    @media (min-width: 1335px) {
+        position: absolute;
+        top: 140px;
+        left: -95px;
+    }
 
-            @media (min-width: 1235px) {
-                position: absolute;
-                top: 140px;
-                left: -65px;
-            }
+    @media (min-width: 1360px) {
+        position: absolute;
+        top: 140px;
+        left: -115px;
+    }
 
-            @media (min-width: 1290px) {
-                position: absolute;
-                top: 140px;
-                left: -85px;
-            }
+    @media (min-width: 1380px) {
+        position: absolute;
+        top: 140px;
+        left: -135px;
+    }
 
-            @media (min-width: 1335px) {
-                position: absolute;
-                top: 140px;
-                left: -95px;
-            }
+    @media (min-width: 1400px) {
+        position: absolute;
+        top: 140px;
+        left: -170px;
+    }
 
-            @media (min-width: 1360px) {
-                position: absolute;
-                top: 140px;
-                left: -115px;
-            }
+    @media (min-width: 1440px) {
+        position: absolute;
+        top: 180px;
+        left: -94px;
+    }
 
-            @media (min-width: 1380px) {
-                position: absolute;
-                top: 140px;
-                left: -135px;
-            }
+    @media (min-width: 1470px) {
+        position: absolute;
+        top: 180px;
+        left: -110px;
+    }
 
-            @media (min-width: 1400px) {
-                position: absolute;
-                top: 140px;
-                left: -155px;
-            }
+    @media (min-width: 1500px) {
+        position: absolute;
+        top: 180px;
+        left: -120px;
+    }
 
-            @media (min-width: 1440px) {
-                position: absolute;
-                top: 180px;
-                left: -68px;
-            }
+    @media (min-width: 1520px) {
+        position: absolute;
+        top: 180px;
+        left: -140px;
+    }
 
-            @media (min-width: 1470px) {
-                position: absolute;
-                top: 180px;
-                left: -100px;
-            }
+    @media (min-width: 1570px) {
+        position: absolute;
+        top: 180px;
+        left: -170px;
+    }
 
-            @media (min-width: 1500px) {
-                position: absolute;
-                top: 180px;
-                left: -120px;
-            }
+    @media (min-width: 1620px) {
+        position: absolute;
+        top: 180px;
+        left: -190px;
+    }
 
-            @media (min-width: 1570px) {
-                position: absolute;
-                top: 180px;
-                left: -150px;
-            }
+    @media (min-width: 1655px) {
+        position: absolute;
+        top: 180px;
+        left: -210px;
+    }
+
+    @media (min-width: 1700px) {
+        position: absolute;
+        top: 180px;
+        left: -235px;
+    }
+
+    @media (min-width: 1740px) {
+        position: absolute;
+        top: 180px;
+        left: -255px;
+    }
+
+    @media (min-width: 1785px) {
+        position: absolute;
+        top: 180px;
+        left: -275px;
+    }
+
+    @media (min-width: 1820px) {
+        position: absolute;
+        top: 180px;
+        left: -300px;
+    }
+
+    @media (min-width: 1870px) {
+        position: absolute;
+        top: 180px;
+        left: -320px;
+    }
+
+    @media (min-width: 1900px) {
+        position: absolute;
+        top: 180px;
+        left: -340px;
+    }
+
+    @media (min-width: 1950px) {
+        position: absolute;
+        top: 180px;
+        left: -360px;
+    }
+
+    @media (min-width: 2000px) {
+        position: absolute;
+        top: 180px;
+        left: -380px;
+    }
 
             .button {
                 background: none;

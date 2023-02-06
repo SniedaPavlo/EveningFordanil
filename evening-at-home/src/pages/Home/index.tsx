@@ -11,8 +11,8 @@ const Home: React.FC = () => {
         <div>
             <Main />
             <Collection />
-             <About />
-            <FAQ /> 
+            {/* <About />
+            <FAQ />  */}
         </div>
     )
 }

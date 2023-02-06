@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 import { Provider } from 'react-redux'
 import store from './redux/store'
+import { BrowserRouter } from 'react-router-dom'
 
 
 
@@ -15,10 +16,11 @@ if (elRoot) {
   const root = ReactDOM.createRoot(elRoot);
 
   root.render(
-    <Provider store={store} >
-      <App />
-    </Provider>
-
+    <BrowserRouter >
+      <Provider store={store} >
+        <App />
+      </Provider>
+    </BrowserRouter>
 
   );
 }
