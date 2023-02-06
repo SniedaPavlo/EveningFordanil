@@ -1,0 +1,151 @@
+.wrapper{
+    background-color: #161616;
+    color: white;
+    height: min-content;
+
+    .inner__wrapper{
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
+        
+    }
+   
+
+
+
+    @media (min-width:640px) {
+        height: min-content;
+
+    }
+
+    @media (min-width:834px) {
+
+    }
+
+    @media (min-width:1300px) {
+        height: min-content;
+    }
+}
+
+.footer__wrapper{
+    max-width: 199px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+   
+
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  
+    
+
+    @media (min-width:640px) {
+        
+        max-width: 80vw;
+        align-items: start;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        // justify-content: s;
+        gap: 90px;
+        // max-width: 99vw;
+    }
+
+     @media (min-width:1440px) {
+       max-width: 900px;
+    }
+
+    color: #FFFFFF;
+
+}
+
+.img__wrapper{
+    padding-top: 60px;
+    width: 99vw;
+    display: flex;
+    justify-content: center;
+    
+
+    @media (min-width:640px) {
+        padding-top: 65px;
+        width: 100%;
+        justify-content: center;
+        
+    }
+    @media (min-width:1440px) {
+        display: none;
+    }
+   
+}
+
+
+.logo {
+    width: 100px;
+    height: 72px;
+    @media (min-width:640px) {
+        width: 179px;
+        height: 128px;
+    }
+
+    &__inner{
+        display: none;
+        // padding-right: 20px;
+        @media (min-width:1440px) {
+            display: block;
+            width: 179px;
+            height: 128px;
+            padding-right: 60px;
+        }
+    }
+}
+
+
+
+
+.item{
+    text-align: center;
+    
+}
+
+.title{
+    display: none;
+    @media (min-width:640px) {
+    display: block;
+    
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+
+    color: #FFFFFF;
+    }
+
+}
+
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    
+    @media (min-width:640px) {
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .item{
+
+    }
+  
+
+}

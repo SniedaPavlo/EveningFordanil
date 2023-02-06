@@ -1,0 +1,55 @@
+body {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+
+.btn {
+    background: none;
+    background-image: url('../img/All/arrow.svg');
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 2px solid #99CCFF;
+    background-position: center;
+    outline: none;
+    transition: all 0.3s;
+    cursor: pointer;
+    
+}
+
+.btn:hover{
+    transition: all 0.3s;
+    // background-color: #1F2933;
+    background-color: #aed6f9;
+}
+
+.container {
+    padding-left: 28px;
+    padding-right: 28px;
+
+    @media (min-width: 834px) {
+
+        padding-left: 32px;
+        padding-right: 32px;
+
+    }
+
+    // @media (min-width: 1440px) {
+
+    //     padding-left: 105px;
+    //     padding-right: 105px;
+
+    // }
+
+        @media (min-width: 1200px) {
+    
+            padding-left: 105px;
+            padding-right: 105px;
+    
+        }
+
+
+}
