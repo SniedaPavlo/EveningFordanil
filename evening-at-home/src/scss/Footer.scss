@@ -1,0 +1,16 @@
+.inner__wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 20px;
+    margin-bottom: 32px;
+
+    @media (min-width:640px) {
+        // align-items: center;
+        width: 700px;
+    }
+    @media (min-width:1400px) {
+        max-width: 300px;
+    }
+}
+
